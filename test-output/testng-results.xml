@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="78" started-at="2018-06-06T08:18:38Z" finished-at="2018-06-06T08:18:38Z">
+    <groups>
+      <group name="Demo1_1">
+        <method signature="Demo1_1.methodDemo1_1(java.lang.String)[pri:0, instance:ricoh.es.Demo1_1@18be83e4]" name="methodDemo1_1" class="ricoh.es.Demo1_1"/>
+      </group> <!-- Demo1_1 -->
+    </groups>
+    <test name="Test demo 1" duration-ms="24" started-at="2018-06-06T08:18:38Z" finished-at="2018-06-06T08:18:38Z">
+      <class name="ricoh.es.Demo1_1">
+        <test-method status="PASS" signature="methodDemo1_1(java.lang.String)[pri:0, instance:ricoh.es.Demo1_1@18be83e4]" name="methodDemo1_1" duration-ms="9" started-at="2018-06-06T10:18:38Z" data-provider="dp" finished-at="2018-06-06T10:18:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Agusti]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodDemo1_1 -->
+        <test-method status="PASS" signature="methodDemo1_1(java.lang.String)[pri:0, instance:ricoh.es.Demo1_1@18be83e4]" name="methodDemo1_1" duration-ms="1" started-at="2018-06-06T10:18:38Z" data-provider="dp" finished-at="2018-06-06T10:18:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blasi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodDemo1_1 -->
+      </class> <!-- ricoh.es.Demo1_1 -->
+    </test> <!-- Test demo 1 -->
+    <test name="Test demo 2" duration-ms="2" started-at="2018-06-06T08:18:38Z" finished-at="2018-06-06T08:18:38Z">
+      <class name="ricoh.es.Demo1_2">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ricoh.es.Demo1_2@6a4f787b]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-06-06T10:18:38Z" finished-at="2018-06-06T10:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ricoh.es.Demo1_2@6a4f787b]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-06T10:18:38Z" finished-at="2018-06-06T10:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- ricoh.es.Demo1_2 -->
+    </test> <!-- Test demo 2 -->
+    <test name="Test demo 3" duration-ms="6" started-at="2018-06-06T08:18:38Z" finished-at="2018-06-06T08:18:38Z">
+      <class name="ricoh.es.Demo1_3">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ricoh.es.Demo1_3@7d9d1a19]" name="beforeTest" is-config="true" duration-ms="2" started-at="2018-06-06T10:18:38Z" finished-at="2018-06-06T10:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ricoh.es.Demo1_3@7d9d1a19]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-06T10:18:38Z" finished-at="2018-06-06T10:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- ricoh.es.Demo1_3 -->
+    </test> <!-- Test demo 3 -->
+  </suite> <!-- Suite -->
+</testng-results>

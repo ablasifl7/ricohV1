@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="user" value="Agustí"/>
+  <parameter name="url" value="http://http://www.google.com"/>
+  <parameter name="users" value="Agusti,Blasi"/>
+  <test name="Test demo 1(failed)">
+    <parameter name="users" value="Agusti,Blasi"/>
+    <groups>
+      <run>
+        <include name="Demo1_1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ricoh.es.Demo1_2">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ricoh.es.Demo1_2 -->
+      <class name="ricoh.es.Demo1_3">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ricoh.es.Demo1_3 -->
+      <class name="ricoh.es.Demo1_1">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- ricoh.es.Demo1_1 -->
+    </classes>
+  </test> <!-- Test demo 1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
