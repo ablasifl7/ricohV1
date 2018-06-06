@@ -24,10 +24,9 @@ public class App
         //System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
         //browser = new ChromeDriver();
         
-        System.setProperty("webdriver.ie.driver", "C:\\drivers\\IEDriverServer1.exe");
+        //System.setProperty("webdriver.ie.driver", "C:\\drivers\\IEDriverServer.exe");
         browser = new InternetExplorerDriver();
-        
-        
+            
         browser.get("http://www.google.com");
         
         WebDriverWait wait = new WebDriverWait(browser, 10);
@@ -43,9 +42,6 @@ public class App
         System.out.println(element.isDisplayed());
         
         element.submit();
-  
-        
-
         
         browser.close();
     }
